@@ -19,7 +19,7 @@ while True:
                 amount = float(input("Enter amount to withdraw: ₱ ")) # try will check this.
 
                 if amount <= 0:
-                    print("Invalid amount. Please enter a positive number.")
+                    print("\nInvalid amount. Please enter a positive number.")
                     continue
 
                 if amount > balance:
