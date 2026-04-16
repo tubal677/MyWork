@@ -4,10 +4,10 @@ def Create_File():
     try:
         file = open("message.txt", "x")
         file.close()
-        print("File Created Successfully.")
+        print("\nFile Created Successfully.")
 
     except FileExistsError:
-        print("File already exist!")
+        print("\nFile already exist!")
 
 def Send_Message():
     try:
