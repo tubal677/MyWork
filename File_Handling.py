@@ -17,7 +17,7 @@ def Send_Message():
         print("Message Sent.")
 
     except Exception as error:
-        print("\nError Message: ", error)
+        print("\nError Sending Message: ", error)
 
 def View_Message():
     try:
