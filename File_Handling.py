@@ -1,3 +1,5 @@
+# Simple Messaging App
+
 def Create_File():
     try:
         file = open("message.txt", "x")
@@ -29,7 +31,7 @@ def View_Message():
 
 def Menu():
     while True:
-        print("\n=== Message Menu ===")
+        print("\n=== Welcome to our Messaging App ===")
         print("1. Send Message")
         print("2. View Message")
         print("3. Exit")
